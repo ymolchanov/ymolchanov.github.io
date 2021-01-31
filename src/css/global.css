@@ -68,14 +68,14 @@ hr {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: red;
   text-decoration: inherit;
   transition: all 200ms linear;
   text-decoration: underline;
 }
 
 a:hover {
-  color: var(--accent);
+  color: red;
 }
 
 ol {
@@ -93,7 +93,8 @@ ul {
 
 b,
 strong {
-  font-weight: 500;
+  color: navy;
+  font-weight: 700;
 }
 
 table {
@@ -179,12 +180,11 @@ kbd {
   color: var(--accent);
   padding: 1px 6px;
   margin: 0 2px;
-  font-size: 0.95rem;
 }
 
 pre,
 code {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 pre code {
