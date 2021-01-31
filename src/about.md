@@ -1,14 +1,16 @@
 ---
-title: About Aidan Charles Powell
+title: Por qué?
 layout: about.njk
-name: Aidan Charles Powell
-image: '/images/me.jpeg'
+name: Por qué?
+image: ""
 ---
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+Here the thing: I will try to get to the Kaggle's TOP-50 competitors list.
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+Here the another thing: I don't know much about ML and Data Science and all this stuff. So my previous statement seems weird right?
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
+And that's true. But it will be interesting for me how far I could get with it.
 
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
+If you want, join me on my jorney to complete fail or awesome success.
+
+P.S.: Yes. I don't have good english also 🤷‍♂️
