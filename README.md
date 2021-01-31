@@ -149,7 +149,7 @@ You can set up a [remote admin](https://forestry.io/docs/editing/remote-admin/) 
 
 - Set the build command to `yarn build`
 
-- Set the publish directory to `public`
+- Set the publish directory to `docs`
 
 ## Built with
 
