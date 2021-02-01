@@ -35,7 +35,8 @@
     "dev:site": "APP_ENV=development eleventy --serve",
     "build:assets": "webpack --mode production",
     "build:site": "eleventy",
-    "clean": "rm -rf ./docs"
+    "clean": "rm -rf ./docs",
+    "deploy": "npm run build && git add -A && git commit -m \"+1\" && git push"
   },
   "dependencies": {
     "remove": "^0.1.5"

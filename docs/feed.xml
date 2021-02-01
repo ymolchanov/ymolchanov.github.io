@@ -5,7 +5,7 @@
   <link href="https://ymolchanov.github.io//feed.xml" rel="self"/>
   <link href="https://ymolchanov.github.io//"/>
   
-    <updated>2021-01-31T00:00:00Z</updated>
+    <updated>2021-02-01T00:00:00Z</updated>
   
   <id>https://ymolchanov.github.io/</id>
   <author>
@@ -31,6 +31,89 @@ To achieve it I need to get 2 bronse medals in competitions.</p>
 <li>check competitions and find one where I want to participate.</li>
 <li>read another users notebooks and read about their approaches.</li>
 </ul>
+
+    ]]>
+      </content>
+    </entry>
+  
+    
+    <entry>
+      <title>The ideas for my projects</title>
+      <link href="https://ymolchanov.github.io//posts/ideas/"/>
+      <updated>2021-01-31T00:00:00Z</updated>
+      <id>https://ymolchanov.github.io//posts/ideas/</id>
+      <content type="html">
+        <![CDATA[
+      <h2>Serverside programming</h2>
+<ul>
+<li><strong>Service that helps to add Magic Link to the site.</strong></li>
+</ul>
+<h2>Computer science</h2>
+<ul>
+<li></li>
+</ul>
+<h2>Projects</h2>
+<ul>
+<li>System that could identify family member and in which time he come. Write it to database and have REST API by which we can get this data in CSV format.</li>
+</ul>
+
+    ]]>
+      </content>
+    </entry>
+  
+    
+    <entry>
+      <title>What is the term &quot;model&quot; means? 0.1.0</title>
+      <link href="https://ymolchanov.github.io//posts/what-is-term-model-means/"/>
+      <updated>2021-01-31T00:00:00Z</updated>
+      <id>https://ymolchanov.github.io//posts/what-is-term-model-means/</id>
+      <content type="html">
+        <![CDATA[
+      <p>Here the sentence: &quot;Decision Trees are a type of model&quot;.</p>
+<p>OK, seems true.</p>
+<p>But what is a model?<br>
+As I understand, model - is a function. And this function take data in and return something out.
+But this function not &quot;static&quot;, it is not just a piece of code or some mapping for values. It is a mathematical function that can be &quot;trained&quot;. So it could improve over time by Machine Learning algorithms.</p>
+<pre class="language-python"><code class="language-python">model <span class="token operator">=</span> DecisionTreeModel<span class="token punctuation">(</span><span class="token punctuation">)</span><br>model<span class="token punctuation">.</span>fit<span class="token punctuation">(</span>training_data<span class="token punctuation">,</span> results<span class="token punctuation">)</span><br>results <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>test_data<span class="token punctuation">)</span></code></pre>
+<p>👆 it is just an example, where model is an object with several methods. But, as I understand, it makes for comfortable model usage in code.</p>
+<p>Here is what Wikipedia writes about it:<br>
+A mathematical model is <strong>a description</strong> of a system using mathematical concepts and language.</p>
+
+    ]]>
+      </content>
+    </entry>
+  
+    
+    <entry>
+      <title>And here is the Kaggle&#39;s Deep Learning Course 0.1.0</title>
+      <link href="https://ymolchanov.github.io//posts/and-first-fail/"/>
+      <updated>2021-02-01T00:00:00Z</updated>
+      <id>https://ymolchanov.github.io//posts/and-first-fail/</id>
+      <content type="html">
+        <![CDATA[
+      <ul>
+<li>
+<p>Reasons</p>
+<ul>
+<li>Hard to get into the course</li>
+<li>Need some instructions</li>
+</ul>
+</li>
+</ul>
+<p>What meens fully-connected?
+New words: regression, classification, stochastic gradient descent, dropout, batch normalization, dense layer (Just your regular densely-connected NN layer), TPU (tensor computation)
+Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach</p>
+<p>What we talk about and hipe about is:
+-&gt; Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.</p>
+<p>Why we need a bias in our neurons?</p>
+<p>https://www.kaggle.com/ryanholbrook/a-single-neuron</p>
+<p>Map:
+https://www.kaggle.com/ryanholbrook/a-single-neuron
+https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
+https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
+https://www.kaggle.com/ryanholbrook/deep-neural-networks</p>
 
     ]]>
       </content>

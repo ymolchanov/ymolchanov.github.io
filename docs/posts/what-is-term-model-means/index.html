@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href=https://ymolchanov.github.io/posts/here-we-go/>
+    <link rel="canonical" href=https://ymolchanov.github.io/posts/what-is-term-model-means/>
 
     <link href="/assets/main.4983ace6f06276e8cba5.css" rel="stylesheet" />
 
@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
     <title>
-      Here we go
+      What is the term &quot;model&quot; means? 0.1.0
       
          | Road to Kaggle TOP 50
       
@@ -19,10 +19,10 @@
 
     <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
 
-    <meta property="og:title" content="Here we go">
+    <meta property="og:title" content="What is the term &quot;model&quot; means? 0.1.0">
     <meta property="og:site_name" content="Road to Kaggle TOP 50"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://ymolchanov.github.io//posts/here-we-go/"/>
+    <meta property="og:url" content="https://ymolchanov.github.io//posts/what-is-term-model-means/"/>
     <meta name="twitter:card" content="summary_large_image">
 
     
@@ -30,9 +30,9 @@
     
     
     
-      <meta name="description" content="Here I will talk about Kaggle ranking system and what I want to achive.">
-      <meta property="og:description" content="Here I will talk about Kaggle ranking system and what I want to achive.">
-      <meta name="description" content="Here I will talk about Kaggle ranking system and what I want to achive."/>
+      <meta name="description" content="Here I will try to understand what the term &quot;model&quot; means.">
+      <meta property="og:description" content="Here I will try to understand what the term &quot;model&quot; means.">
+      <meta name="description" content="Here I will try to understand what the term &quot;model&quot; means."/>
     
 
     
@@ -93,7 +93,7 @@
         
 <article class="post">
   <header class="post__header">
-    <h1>Here we go</h1>
+    <h1>What is the term &quot;model&quot; means? 0.1.0</h1>
     <div class="post__details">
       <time datetime="2021-01-31">
         31 Jan 2021
@@ -104,29 +104,38 @@
   </header>
 
   <main class="post__content">
-    <p>To be a TOP-50 Kaggler is very hard. You must have a master of grandmaster tier. It is really high requirement. And it is not possible to achive this place by accident.</p>
-<p>When I set this goal I don't know that Kaggle has four different <em>categories of expertise</em>. After reading <a href="https://www.kaggle.com/progression">this article</a> I understand that I want to achive expertiese in Competition category. And all other categories don't make sence for me.</p>
-<p>It is useful to eat elephant piece-by-piece so I will do it in this way.</p>
-<p>So <strong>first big goal</strong> is to achive Expert tier in Competition category.<br>
-To achieve it I need to get 2 bronse medals in competitions.</p>
-<p>What I need to do:</p>
-<ul>
-<li>check competitions and find one where I want to participate.</li>
-<li>read another users notebooks and read about their approaches.</li>
-</ul>
+    <p>Here the sentence: &quot;Decision Trees are a type of model&quot;.</p>
+<p>OK, seems true.</p>
+<p>But what is a model?<br>
+As I understand, model - is a function. And this function take data in and return something out.
+But this function not &quot;static&quot;, it is not just a piece of code or some mapping for values. It is a mathematical function that can be &quot;trained&quot;. So it could improve over time by Machine Learning algorithms.</p>
+<pre class="language-python"><code class="language-python">model <span class="token operator">=</span> DecisionTreeModel<span class="token punctuation">(</span><span class="token punctuation">)</span><br>model<span class="token punctuation">.</span>fit<span class="token punctuation">(</span>training_data<span class="token punctuation">,</span> results<span class="token punctuation">)</span><br>results <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>test_data<span class="token punctuation">)</span></code></pre>
+<p>👆 it is just an example, where model is an object with several methods. But, as I understand, it makes for comfortable model usage in code.</p>
+<p>Here is what Wikipedia writes about it:<br>
+A mathematical model is <strong>a description</strong> of a system using mathematical concepts and language.</p>
 
   </main>
 
   <aside class="post__aside">
     <div class="post__tags">
       
+        
+        <a href="/tags/definition/">#definition</a>
+      
     </div>
 
     <nav class="post__pagination">
 
-        <a href="/posts/ideas/">
+        <a href="/posts/and-first-fail/">
           <span>←</span>
+          <span>And here is the Kaggle&#39;s Deep Learning Course 0.1.0</span>
+        </a>
+
+      
+
+        <a href="/posts/ideas/">
           <span>The ideas for my projects</span>
+          <span>→</span>
         </a>
 
       
