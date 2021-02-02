@@ -18,3 +18,6 @@ What I need to do:
 
 - check competitions and find one where I want to participate.
 - read another users notebooks and read about their approaches.
+
+URL to add custom domain:
+https://www.linkedin.com/pulse/eleventy-github-pages-lea-tortay
