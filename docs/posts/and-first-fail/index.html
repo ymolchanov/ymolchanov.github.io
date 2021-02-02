@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
     <title>
-      And here is the Kaggle&#39;s Deep Learning Course 0.1.0
+      And here is the Kaggle&#39;s Deep Learning Course 0.1.1
       
          | Road to Kaggle TOP 50
       
@@ -19,7 +19,7 @@
 
     <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
 
-    <meta property="og:title" content="And here is the Kaggle&#39;s Deep Learning Course 0.1.0">
+    <meta property="og:title" content="And here is the Kaggle&#39;s Deep Learning Course 0.1.1">
     <meta property="og:site_name" content="Road to Kaggle TOP 50"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://ymolchanov.github.io//posts/and-first-fail/"/>
@@ -30,9 +30,9 @@
     
     
     
-      <meta name="description" content="Here I will write about my experience of Deep Learning understanding.">
-      <meta property="og:description" content="Here I will write about my experience of Deep Learning understanding.">
-      <meta name="description" content="Here I will write about my experience of Deep Learning understanding."/>
+      <meta name="description" content="Here I will write about my experience of Deep Learning first impression.">
+      <meta property="og:description" content="Here I will write about my experience of Deep Learning first impression.">
+      <meta name="description" content="Here I will write about my experience of Deep Learning first impression."/>
     
 
     
@@ -93,10 +93,10 @@
         
 <article class="post">
   <header class="post__header">
-    <h1>And here is the Kaggle&#39;s Deep Learning Course 0.1.0</h1>
+    <h1>And here is the Kaggle&#39;s Deep Learning Course 0.1.1</h1>
     <div class="post__details">
-      <time datetime="2021-02-01">
-        01 Feb 2021
+      <time datetime="2021-02-02">
+        02 Feb 2021
       </time>
       <span> | </span>
       <span>1 min read</span>
@@ -104,29 +104,38 @@
   </header>
 
   <main class="post__content">
-    <ul>
-<li>
-<p>Reasons</p>
-<ul>
-<li>Hard to get into the course</li>
-<li>Need some instructions</li>
-</ul>
-</li>
-</ul>
-<p>What meens fully-connected?
-New words: regression, classification, stochastic gradient descent, dropout, batch normalization, dense layer (Just your regular densely-connected NN layer), TPU (tensor computation)
-Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach</p>
-<p>What we talk about and hipe about is:
--&gt; Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.</p>
+    <h2>What is the Deep Learning?</h2>
+<p>It is the field inside Machine Learning. Which mostly connected with neural network method.</p>
+<h2>Why is this so important?</h2>
+<p>Quote:</p>
+<blockquote>
+<p>Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.</p>
+</blockquote>
+<h2>Questions:</h2>
 <p>Why we need a bias in our neurons?</p>
-<p>https://www.kaggle.com/ryanholbrook/a-single-neuron</p>
-<p>Map:
-https://www.kaggle.com/ryanholbrook/a-single-neuron
-https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit
-https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head
-https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
-https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
-https://www.kaggle.com/ryanholbrook/deep-neural-networks</p>
+<h2>New words:</h2>
+<p><strong>regression</strong> - machine learning problem that we solving (operate with continuous data)</p>
+<p><strong>classification</strong> - machine learngin problem (operating with discrete data)</p>
+<p><strong>dense layer</strong> - most simple neural network layer, we work with it in <a href="https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit">Lesson 2</a>.<br>
+A Dense layer feeds all outputs from the previous layer to all its neurons, each neuron providing one output to the next layer. It's the <strong>most basic layer</strong> in neural networks.<br>
+In general, they (dense layers) have the same formulas as the <em>linear layers</em> <code>wx+b</code>, but the end result is passed through a non-linear function called Activation function.<br>
+Dense layers can be reduced back to linear layers if we use a linear activation!<br>
+<a href="https://medium.com/datathings/dense-layers-explained-in-a-simple-way-62fe1db0ed75">About Dense layer in simple words</a><br>
+<a href="https://medium.com/datathings/linear-layers-explained-in-a-simple-way-2319a9c2d1aa">About Linear layer</a></p>
+<p><strong>TPU</strong> - <a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">Tensor Processing Unit</a></p>
+<p><strong>activation functions</strong> - activation function is simply some function we apply to each of a layer's outputs (its activations). It gives us more power, without it we can't move out of the world of lines and planes.</p>
+<p><strong>rectifier function</strong> - one of the activation function ( <code>max(0, x)</code> )</p>
+<p><strong>rectified linear unit or ReLU</strong> - is the neuron with rectifier function as activation function</p>
+<p>Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach</p>
+<h2>Map:</h2>
+<p><a href="https://www.kaggle.com/ryanholbrook/a-single-neuron">First lesson of Kaggle's Deep Learning Course</a><br>
+<a href="https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit">First excercise</a><br>
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head">Pandas DataFrame head method</a><br>
+<a href="https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense">Keras Dense Layer doc</a><br>
+<a href="https://www.tensorflow.org/api_docs/python/tf/keras/Sequential">Keras Sequential doc</a><br>
+<a href="https://www.kaggle.com/ryanholbrook/deep-neural-networks">Second lesson</a><br>
+<a href="https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit">Second excercise</a><br>
+<a href="https://www.kaggle.com/ryanholbrook/stochastic-gradient-descent">Lesson 3: Stochastic Gradient Descent</a></p>
 
   </main>
 

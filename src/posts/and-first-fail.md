@@ -1,30 +1,54 @@
 ---
-title: And here is the Kaggle's Deep Learning Course 0.1.0
-description: Here I will write about my experience of Deep Learning understanding.
-date: "2021-02-01"
+title: And here is the Kaggle's Deep Learning Course 0.1.1
+description: Here I will write about my experience of Deep Learning first impression.
+date: "2021-02-02"
 tags: []
 ---
 
-- Reasons
+## What is the Deep Learning?
 
-  - Hard to get into the course
-  - Need some instructions
+It is the field inside Machine Learning. Which mostly connected with neural network method.
 
-What meens fully-connected?
-New words: regression, classification, stochastic gradient descent, dropout, batch normalization, dense layer (Just your regular densely-connected NN layer), TPU (tensor computation)
-Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach
+## Why is this so important?
 
-What we talk about and hipe about is:
--> Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.
+Quote:
+
+> Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.
+
+## Questions:
 
 Why we need a bias in our neurons?
 
-https://www.kaggle.com/ryanholbrook/a-single-neuron
+## New words:
 
-Map:
-https://www.kaggle.com/ryanholbrook/a-single-neuron
-https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit
-https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head
-https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
-https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
-https://www.kaggle.com/ryanholbrook/deep-neural-networks
+**regression** - machine learning problem that we solving (operate with continuous data)
+
+**classification** - machine learngin problem (operating with discrete data)
+
+**dense layer** - most simple neural network layer, we work with it in [Lesson 2](https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit).  
+A Dense layer feeds all outputs from the previous layer to all its neurons, each neuron providing one output to the next layer. It's the **most basic layer** in neural networks.  
+In general, they (dense layers) have the same formulas as the _linear layers_ `wx+b`, but the end result is passed through a non-linear function called Activation function.  
+Dense layers can be reduced back to linear layers if we use a linear activation!  
+[About Dense layer in simple words](https://medium.com/datathings/dense-layers-explained-in-a-simple-way-62fe1db0ed75)  
+[About Linear layer](https://medium.com/datathings/linear-layers-explained-in-a-simple-way-2319a9c2d1aa)
+
+**TPU** - [Tensor Processing Unit](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)
+
+**activation functions** - activation function is simply some function we apply to each of a layer's outputs (its activations). It gives us more power, without it we can't move out of the world of lines and planes.
+
+**rectifier function** - one of the activation function ( `max(0, x)` )
+
+**rectified linear unit or ReLU** - is the neuron with rectifier function as activation function
+
+Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach
+
+## Map:
+
+[First lesson of Kaggle's Deep Learning Course](https://www.kaggle.com/ryanholbrook/a-single-neuron)  
+[First excercise](https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit)  
+[Pandas DataFrame head method](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head)  
+[Keras Dense Layer doc](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense)  
+[Keras Sequential doc](https://www.tensorflow.org/api_docs/python/tf/keras/Sequential)  
+[Second lesson](https://www.kaggle.com/ryanholbrook/deep-neural-networks)  
+[Second excercise](https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit)  
+[Lesson 3: Stochastic Gradient Descent](https://www.kaggle.com/ryanholbrook/stochastic-gradient-descent)

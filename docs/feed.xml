@@ -5,7 +5,7 @@
   <link href="https://ymolchanov.github.io//feed.xml" rel="self"/>
   <link href="https://ymolchanov.github.io//"/>
   
-    <updated>2021-02-01T00:00:00Z</updated>
+    <updated>2021-02-02T00:00:00Z</updated>
   
   <id>https://ymolchanov.github.io/</id>
   <author>
@@ -28,8 +28,9 @@
 To achieve it I need to get 2 bronse medals in competitions.</p>
 <p>What I need to do:</p>
 <ul>
-<li>check competitions and find one where I want to participate.</li>
-<li>read another users notebooks and read about their approaches.</li>
+<li>understand in what field I need to improve my expertise (it is important, because I can't be good in every field of Machine Learning)</li>
+<li>learn courses and read about it</li>
+<li>check competition in this field (like computer vision)</li>
 </ul>
 
     ]]>
@@ -85,35 +86,44 @@ A mathematical model is <strong>a description</strong> of a system using mathema
   
     
     <entry>
-      <title>And here is the Kaggle&#39;s Deep Learning Course 0.1.0</title>
+      <title>And here is the Kaggle&#39;s Deep Learning Course 0.1.1</title>
       <link href="https://ymolchanov.github.io//posts/and-first-fail/"/>
-      <updated>2021-02-01T00:00:00Z</updated>
+      <updated>2021-02-02T00:00:00Z</updated>
       <id>https://ymolchanov.github.io//posts/and-first-fail/</id>
       <content type="html">
         <![CDATA[
-      <ul>
-<li>
-<p>Reasons</p>
-<ul>
-<li>Hard to get into the course</li>
-<li>Need some instructions</li>
-</ul>
-</li>
-</ul>
-<p>What meens fully-connected?
-New words: regression, classification, stochastic gradient descent, dropout, batch normalization, dense layer (Just your regular densely-connected NN layer), TPU (tensor computation)
-Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach</p>
-<p>What we talk about and hipe about is:
--&gt; Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.</p>
+      <h2>What is the Deep Learning?</h2>
+<p>It is the field inside Machine Learning. Which mostly connected with neural network method.</p>
+<h2>Why is this so important?</h2>
+<p>Quote:</p>
+<blockquote>
+<p>Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.</p>
+</blockquote>
+<h2>Questions:</h2>
 <p>Why we need a bias in our neurons?</p>
-<p>https://www.kaggle.com/ryanholbrook/a-single-neuron</p>
-<p>Map:
-https://www.kaggle.com/ryanholbrook/a-single-neuron
-https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit
-https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head
-https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
-https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
-https://www.kaggle.com/ryanholbrook/deep-neural-networks</p>
+<h2>New words:</h2>
+<p><strong>regression</strong> - machine learning problem that we solving (operate with continuous data)</p>
+<p><strong>classification</strong> - machine learngin problem (operating with discrete data)</p>
+<p><strong>dense layer</strong> - most simple neural network layer, we work with it in <a href="https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit">Lesson 2</a>.<br>
+A Dense layer feeds all outputs from the previous layer to all its neurons, each neuron providing one output to the next layer. It's the <strong>most basic layer</strong> in neural networks.<br>
+In general, they (dense layers) have the same formulas as the <em>linear layers</em> <code>wx+b</code>, but the end result is passed through a non-linear function called Activation function.<br>
+Dense layers can be reduced back to linear layers if we use a linear activation!<br>
+<a href="https://medium.com/datathings/dense-layers-explained-in-a-simple-way-62fe1db0ed75">About Dense layer in simple words</a><br>
+<a href="https://medium.com/datathings/linear-layers-explained-in-a-simple-way-2319a9c2d1aa">About Linear layer</a></p>
+<p><strong>TPU</strong> - <a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">Tensor Processing Unit</a></p>
+<p><strong>activation functions</strong> - activation function is simply some function we apply to each of a layer's outputs (its activations). It gives us more power, without it we can't move out of the world of lines and planes.</p>
+<p><strong>rectifier function</strong> - one of the activation function ( <code>max(0, x)</code> )</p>
+<p><strong>rectified linear unit or ReLU</strong> - is the neuron with rectifier function as activation function</p>
+<p>Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach</p>
+<h2>Map:</h2>
+<p><a href="https://www.kaggle.com/ryanholbrook/a-single-neuron">First lesson of Kaggle's Deep Learning Course</a><br>
+<a href="https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit">First excercise</a><br>
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html#pandas.DataFrame.head">Pandas DataFrame head method</a><br>
+<a href="https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense">Keras Dense Layer doc</a><br>
+<a href="https://www.tensorflow.org/api_docs/python/tf/keras/Sequential">Keras Sequential doc</a><br>
+<a href="https://www.kaggle.com/ryanholbrook/deep-neural-networks">Second lesson</a><br>
+<a href="https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit">Second excercise</a><br>
+<a href="https://www.kaggle.com/ryanholbrook/stochastic-gradient-descent">Lesson 3: Stochastic Gradient Descent</a></p>
 
     ]]>
       </content>

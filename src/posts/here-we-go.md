@@ -16,5 +16,6 @@ To achieve it I need to get 2 bronse medals in competitions.
 
 What I need to do:
 
-- check competitions and find one where I want to participate.
-- read another users notebooks and read about their approaches.
+- understand in what field I need to improve my expertise (it is important, because I can't be good in every field of Machine Learning)
+- learn courses and read about it
+- check competition in this field (like computer vision)
