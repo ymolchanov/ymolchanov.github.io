@@ -5,7 +5,7 @@
   <link href="https://ymolchanov.github.io//feed.xml" rel="self"/>
   <link href="https://ymolchanov.github.io//"/>
   
-    <updated>2021-02-02T00:00:00Z</updated>
+    <updated>2021-02-03T00:00:00Z</updated>
   
   <id>https://ymolchanov.github.io/</id>
   <author>
@@ -86,10 +86,10 @@ A mathematical model is <strong>a description</strong> of a system using mathema
   
     
     <entry>
-      <title>And here is the Kaggle&#39;s Deep Learning Course 0.1.1</title>
-      <link href="https://ymolchanov.github.io//posts/and-first-fail/"/>
-      <updated>2021-02-02T00:00:00Z</updated>
-      <id>https://ymolchanov.github.io//posts/and-first-fail/</id>
+      <title>And here is the Kaggle&#39;s Deep Learning Course 0.1.2</title>
+      <link href="https://ymolchanov.github.io//posts/and-first-step-is/"/>
+      <updated>2021-02-03T00:00:00Z</updated>
+      <id>https://ymolchanov.github.io//posts/and-first-step-is/</id>
       <content type="html">
         <![CDATA[
       <h2>What is the Deep Learning?</h2>
@@ -99,6 +99,9 @@ A mathematical model is <strong>a description</strong> of a system using mathema
 <blockquote>
 <p>Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.</p>
 </blockquote>
+<h2>What are Learning Rate and Batch size?</h2>
+<p>You probably saw that smaller batch sizes gave noisier weight updates and loss curves. This is because each batch is a small sample of data and smaller samples tend to give noisier estimates. Smaller batches can have an &quot;averaging&quot; effect though which can be beneficial.</p>
+<p>Smaller learning rates make the updates smaller and the training takes longer to converge. Large learning rates can speed up training, but don't &quot;settle in&quot; to a minimum as well. When the learning rate is too large, the training can fail completely. (Try setting the learning rate to a large value like 0.99 to see this.)</p>
 <h2>Questions:</h2>
 <p>Why we need a bias in our neurons?</p>
 <h2>New words:</h2>
@@ -114,6 +117,8 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 <p><strong>activation functions</strong> - activation function is simply some function we apply to each of a layer's outputs (its activations). It gives us more power, without it we can't move out of the world of lines and planes.</p>
 <p><strong>rectifier function</strong> - one of the activation function ( <code>max(0, x)</code> )</p>
 <p><strong>rectified linear unit or ReLU</strong> - is the neuron with rectifier function as activation function</p>
+<p><strong>loss function</strong> - function that measures the disparity between the the target's true value and the value the model predicts.</p>
+<p><strong>optimizer</strong> - The optimizer is an algorithm that adjusts the weights to minimize the loss</p>
 <p>Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach</p>
 <h2>Map:</h2>
 <p><a href="https://www.kaggle.com/ryanholbrook/a-single-neuron">First lesson of Kaggle's Deep Learning Course</a><br>
@@ -123,7 +128,11 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 <a href="https://www.tensorflow.org/api_docs/python/tf/keras/Sequential">Keras Sequential doc</a><br>
 <a href="https://www.kaggle.com/ryanholbrook/deep-neural-networks">Second lesson</a><br>
 <a href="https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit">Second excercise</a><br>
-<a href="https://www.kaggle.com/ryanholbrook/stochastic-gradient-descent">Lesson 3: Stochastic Gradient Descent</a></p>
+<a href="https://www.kaggle.com/ryanholbrook/stochastic-gradient-descent">Lesson 3: Stochastic Gradient Descent</a><br>
+<a href="https://www.kaggle.com/ymolchanov/exercise-stochastic-gradient-descent/edit">Stochastic gradient descent</a><br>
+<a href="https://www.tensorflow.org/api_docs/python/tf/keras/Model#compile">model.compile</a><br>
+<a href="https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit">model.fit</a><br>
+<a href="https://www.kaggle.com/ryanholbrook/overfitting-and-underfitting">overfitting and underfitting</a></p>
 
     ]]>
       </content>

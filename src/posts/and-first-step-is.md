@@ -1,7 +1,7 @@
 ---
-title: And here is the Kaggle's Deep Learning Course 0.1.1
+title: And here is the Kaggle's Deep Learning Course 0.1.2
 description: Here I will write about my experience of Deep Learning first impression.
-date: "2021-02-02"
+date: "2021-02-03"
 tags: []
 ---
 
@@ -14,6 +14,12 @@ It is the field inside Machine Learning. Which mostly connected with neural netw
 Quote:
 
 > Some of the most impressive advances in artificial intelligence in recent years have been in the field of deep learning.
+
+## What are Learning Rate and Batch size?
+
+You probably saw that smaller batch sizes gave noisier weight updates and loss curves. This is because each batch is a small sample of data and smaller samples tend to give noisier estimates. Smaller batches can have an "averaging" effect though which can be beneficial.
+
+Smaller learning rates make the updates smaller and the training takes longer to converge. Large learning rates can speed up training, but don't "settle in" to a minimum as well. When the learning rate is too large, the training can fail completely. (Try setting the learning rate to a large value like 0.99 to see this.)
 
 ## Questions:
 
@@ -40,6 +46,10 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 
 **rectified linear unit or ReLU** - is the neuron with rectifier function as activation function
 
+**loss function** - function that measures the disparity between the the target's true value and the value the model predicts.
+
+**optimizer** - The optimizer is an algorithm that adjusts the weights to minimize the loss
+
 Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach
 
 ## Map:
@@ -51,4 +61,8 @@ Yamshikov said that I need to know more about statistics to solve problems with 
 [Keras Sequential doc](https://www.tensorflow.org/api_docs/python/tf/keras/Sequential)  
 [Second lesson](https://www.kaggle.com/ryanholbrook/deep-neural-networks)  
 [Second excercise](https://www.kaggle.com/ymolchanov/exercise-deep-neural-networks/edit)  
-[Lesson 3: Stochastic Gradient Descent](https://www.kaggle.com/ryanholbrook/stochastic-gradient-descent)
+[Lesson 3: Stochastic Gradient Descent](https://www.kaggle.com/ryanholbrook/stochastic-gradient-descent)  
+[Stochastic gradient descent](https://www.kaggle.com/ymolchanov/exercise-stochastic-gradient-descent/edit)  
+[model.compile](https://www.tensorflow.org/api_docs/python/tf/keras/Model#compile)  
+[model.fit](https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit)  
+[overfitting and underfitting](https://www.kaggle.com/ryanholbrook/overfitting-and-underfitting)
