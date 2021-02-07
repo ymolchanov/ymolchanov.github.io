@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
     <title>
-      And here is the Kaggle&#39;s Deep Learning Course 0.1.2
+      And here is the Kaggle&#39;s Deep Learning Course 0.1.3
       
          | Road to Kaggle TOP 50
       
@@ -19,7 +19,7 @@
 
     <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
 
-    <meta property="og:title" content="And here is the Kaggle&#39;s Deep Learning Course 0.1.2">
+    <meta property="og:title" content="And here is the Kaggle&#39;s Deep Learning Course 0.1.3">
     <meta property="og:site_name" content="Road to Kaggle TOP 50"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://ymolchanov.github.io//posts/and-first-step-is/"/>
@@ -93,10 +93,10 @@
         
 <article class="post">
   <header class="post__header">
-    <h1>And here is the Kaggle&#39;s Deep Learning Course 0.1.2</h1>
+    <h1>And here is the Kaggle&#39;s Deep Learning Course 0.1.3</h1>
     <div class="post__details">
-      <time datetime="2021-02-03">
-        03 Feb 2021
+      <time datetime="2021-02-07">
+        07 Feb 2021
       </time>
       <span> | </span>
       <span>2 min read</span>
@@ -114,6 +114,10 @@
 <h2>What are Learning Rate and Batch size?</h2>
 <p>You probably saw that smaller batch sizes gave noisier weight updates and loss curves. This is because each batch is a small sample of data and smaller samples tend to give noisier estimates. Smaller batches can have an &quot;averaging&quot; effect though which can be beneficial.</p>
 <p>Smaller learning rates make the updates smaller and the training takes longer to converge. Large learning rates can speed up training, but don't &quot;settle in&quot; to a minimum as well. When the learning rate is too large, the training can fail completely. (Try setting the learning rate to a large value like 0.99 to see this.)</p>
+<h2>Underfitting or overfitting?</h2>
+<p><img src="/images/hokey_stick.png" alt="">
+Here we see the &quot;hokey stick&quot; plot.<br>
+The gap between these curves is quite small and the validation loss never increases, so it's <strong>more likely that the network is underfitting than overfitting</strong>. It would be worth experimenting with more capacity to see if that's the case.</p>
 <h2>Questions:</h2>
 <p>Why we need a bias in our neurons?</p>
 <h2>New words:</h2>
@@ -131,7 +135,8 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 <p><strong>rectified linear unit or ReLU</strong> - is the neuron with rectifier function as activation function</p>
 <p><strong>loss function</strong> - function that measures the disparity between the the target's true value and the value the model predicts.</p>
 <p><strong>optimizer</strong> - The optimizer is an algorithm that adjusts the weights to minimize the loss</p>
-<p>Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach</p>
+<p>signal<br>
+noise</p>
 <h2>Map:</h2>
 <p><a href="https://www.kaggle.com/ryanholbrook/a-single-neuron">First lesson of Kaggle's Deep Learning Course</a><br>
 <a href="https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit">First excercise</a><br>
@@ -144,7 +149,11 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 <a href="https://www.kaggle.com/ymolchanov/exercise-stochastic-gradient-descent/edit">Stochastic gradient descent</a><br>
 <a href="https://www.tensorflow.org/api_docs/python/tf/keras/Model#compile">model.compile</a><br>
 <a href="https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit">model.fit</a><br>
-<a href="https://www.kaggle.com/ryanholbrook/overfitting-and-underfitting">overfitting and underfitting</a></p>
+<a href="https://www.kaggle.com/ryanholbrook/overfitting-and-underfitting">Lesson 4: overfitting and underfitting</a>
+<a href="https://www.kaggle.com/ymolchanov/exercise-overfitting-and-underfitting/edit">Excercise for Lesson 4: here I found good examples of data preparation</a><br>
+<a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html">pandas.DataFrame.dropna</a><br>
+<a href="https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping">keras.callbacks.EarlyStopping</a><br>
+<a href="https://www.kaggle.com/ryanholbrook/dropout-and-batch-normalization">Lesson 5: Dropout and Batch Normalization</a></p>
 
   </main>
 

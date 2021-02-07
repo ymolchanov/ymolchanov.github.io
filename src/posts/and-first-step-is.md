@@ -1,7 +1,7 @@
 ---
-title: And here is the Kaggle's Deep Learning Course 0.1.2
+title: And here is the Kaggle's Deep Learning Course 0.1.3
 description: Here I will write about my experience of Deep Learning first impression.
-date: "2021-02-03"
+date: "2021-02-07"
 tags: []
 ---
 
@@ -20,6 +20,12 @@ Quote:
 You probably saw that smaller batch sizes gave noisier weight updates and loss curves. This is because each batch is a small sample of data and smaller samples tend to give noisier estimates. Smaller batches can have an "averaging" effect though which can be beneficial.
 
 Smaller learning rates make the updates smaller and the training takes longer to converge. Large learning rates can speed up training, but don't "settle in" to a minimum as well. When the learning rate is too large, the training can fail completely. (Try setting the learning rate to a large value like 0.99 to see this.)
+
+## Underfitting or overfitting?
+
+![](/images/hokey_stick.png)
+Here we see the "hokey stick" plot.  
+The gap between these curves is quite small and the validation loss never increases, so it's **more likely that the network is underfitting than overfitting**. It would be worth experimenting with more capacity to see if that's the case.
 
 ## Questions:
 
@@ -50,7 +56,8 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 
 **optimizer** - The optimizer is an algorithm that adjusts the weights to minimize the loss
 
-Yamshikov said that I need to know more about statistics to solve problems with easy more effective approach
+signal  
+noise
 
 ## Map:
 
@@ -65,4 +72,8 @@ Yamshikov said that I need to know more about statistics to solve problems with 
 [Stochastic gradient descent](https://www.kaggle.com/ymolchanov/exercise-stochastic-gradient-descent/edit)  
 [model.compile](https://www.tensorflow.org/api_docs/python/tf/keras/Model#compile)  
 [model.fit](https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit)  
-[overfitting and underfitting](https://www.kaggle.com/ryanholbrook/overfitting-and-underfitting)
+[Lesson 4: overfitting and underfitting](https://www.kaggle.com/ryanholbrook/overfitting-and-underfitting)
+[Excercise for Lesson 4: here I found good examples of data preparation](https://www.kaggle.com/ymolchanov/exercise-overfitting-and-underfitting/edit)  
+[pandas.DataFrame.dropna](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html)  
+[keras.callbacks.EarlyStopping](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping)  
+[Lesson 5: Dropout and Batch Normalization](https://www.kaggle.com/ryanholbrook/dropout-and-batch-normalization)
