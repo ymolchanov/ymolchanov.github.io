@@ -106,6 +106,9 @@ A mathematical model is <strong>a description</strong> of a system using mathema
 <p><img src="/images/hokey_stick.png" alt="">
 Here we see the &quot;hokey stick&quot; plot.<br>
 The gap between these curves is quite small and the validation loss never increases, so it's <strong>more likely that the network is underfitting than overfitting</strong>. It would be worth experimenting with more capacity to see if that's the case.</p>
+<h2>Data preparation</h2>
+<p>With neural networks, it's generally a good idea to put all of your data on a common scale.<br>
+Before we put data in Neural Network we need to do some actions around a data set. One of this actions is <strong>put data to common scale</strong>.</p>
 <h2>Questions:</h2>
 <p>Why we need a bias in our neurons?</p>
 <h2>New words:</h2>
@@ -124,7 +127,9 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 <p><strong>loss function</strong> - function that measures the disparity between the the target's true value and the value the model predicts.</p>
 <p><strong>optimizer</strong> - The optimizer is an algorithm that adjusts the weights to minimize the loss</p>
 <p>signal<br>
-noise</p>
+noise
+<strong>Dropout</strong> - is an idea of layer transformation. We drop some neurons to remove model's overfitting.
+batch normalization</p>
 <h2>Map:</h2>
 <p><a href="https://www.kaggle.com/ryanholbrook/a-single-neuron">First lesson of Kaggle's Deep Learning Course</a><br>
 <a href="https://www.kaggle.com/ymolchanov/exercise-a-single-neuron/edit">First excercise</a><br>

@@ -27,6 +27,11 @@ Smaller learning rates make the updates smaller and the training takes longer to
 Here we see the "hokey stick" plot.  
 The gap between these curves is quite small and the validation loss never increases, so it's **more likely that the network is underfitting than overfitting**. It would be worth experimenting with more capacity to see if that's the case.
 
+## Data preparation
+
+With neural networks, it's generally a good idea to put all of your data on a common scale.  
+Before we put data in Neural Network we need to do some actions around a data set. One of this actions is **put data to common scale**.
+
 ## Questions:
 
 Why we need a bias in our neurons?
@@ -58,6 +63,8 @@ Dense layers can be reduced back to linear layers if we use a linear activation!
 
 signal  
 noise
+**Dropout** - is an idea of layer transformation. We drop some neurons to remove model's overfitting.
+batch normalization
 
 ## Map:
 
